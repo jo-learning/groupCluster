@@ -17,9 +17,10 @@ api = Api(app,
           doc='/swagger/')
 
 # Namespaces
-players_ns = api.namespace('players', description='Player operations')
-clustering_ns = api.namespace('clustering', description='Clustering operations')
-
+# players_ns = api.namespace('players', description='Player operations')
+players_ns = api
+# clustering_ns = api.namespace('clustering', description='Clustering operations')
+clustering_ns = api
 # Load model and encoders
 model = joblib.load("player_cluster_model.pkl")
 scaler = joblib.load("scaler.pkl")
