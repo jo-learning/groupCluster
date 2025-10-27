@@ -1,0 +1,102 @@
+[
+  {
+    "id": "p1",
+    "desiredServices": ["private lessons", "strategy coaching"],
+    "level": "college player",
+    "rank": 4.5,
+    "maxBudgetPerSession": 90,
+    "travelDistance": 15,
+    "goals": ["tournament preparation", "strategy"],
+    "languages": ["English"]
+  },
+  {
+    "id": "p2",
+    "desiredServices": ["group sessions", "fitness training"],
+    "level": "recreational",
+    "rank": 2.5,
+    "maxBudgetPerSession": 40,
+    "travelDistance": 8,
+    "goals": ["increase fitness", "fun and recreation"],
+    "languages": ["English", "Spanish"]
+  },
+  {
+    "id": "p3",
+    "desiredServices": ["match play", "strategy coaching"],
+    "level": "tournament player",
+    "rank": 5.5,
+    "maxBudgetPerSession": 120,
+    "travelDistance": 20,
+    "goals": ["tournament preparation", "improve technique"],
+    "languages": ["English"]
+  },
+  {
+    "id": "p4",
+    "desiredServices": ["private lessons"],
+    "level": "beginner",
+    "rank": 1.0,
+    "maxBudgetPerSession": 30,
+    "travelDistance": 5,
+    "goals": ["fun and recreation"],
+    "languages": ["French"]
+  },
+  {
+    "id": "p5",
+    "desiredServices": ["group sessions", "fitness training"],
+    "level": "high school player",
+    "rank": 3.5,
+    "maxBudgetPerSession": 60,
+    "travelDistance": 10,
+    "goals": ["increase fitness", "improve technique"],
+    "languages": ["English"]
+  },
+  {
+    "id": "p6",
+    "desiredServices": ["mental coaching", "strategy coaching"],
+    "level": "professional",
+    "rank": 6.5,
+    "maxBudgetPerSession": 200,
+    "travelDistance": 30,
+    "goals": ["mental toughness", "strategy"],
+    "languages": ["English", "Italian"]
+  },
+  {
+    "id": "p7",
+    "desiredServices": ["fitness training"],
+    "level": "recreational",
+    "rank": 2.0,
+    "maxBudgetPerSession": 35,
+    "travelDistance": 7,
+    "goals": ["increase fitness", "fun and recreation"],
+    "languages": ["Spanish"]
+  },
+  {
+    "id": "p8",
+    "desiredServices": ["private lessons", "match play"],
+    "level": "tournament player",
+    "rank": 5.0,
+    "maxBudgetPerSession": 110,
+    "travelDistance": 18,
+    "goals": ["tournament preparation", "strategy"],
+    "languages": ["English"]
+  },
+  {
+    "id": "p9",
+    "desiredServices": ["group sessions"],
+    "level": "beginner",
+    "rank": 1.5,
+    "maxBudgetPerSession": 25,
+    "travelDistance": 6,
+    "goals": ["fun and recreation"],
+    "languages": ["English"]
+  },
+  {
+    "id": "p10",
+    "desiredServices": ["private lessons", "fitness training"],
+    "level": "college player",
+    "rank": 4.0,
+    "maxBudgetPerSession": 75,
+    "travelDistance": 12,
+    "goals": ["improve technique", "increase fitness"],
+    "languages": ["English"]
+  }
+]

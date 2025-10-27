@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Player Clustering Demo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎾 Player Clustering System</h1>
+    <form id="playerForm">
+      <label>Desired Services:</label>
+      <input type="text" id="desiredServices" placeholder='e.g. ["private lessons", "fitness training"]' required />
+
+      <label>Level:</label>
+      <select id="level">
+        <option>beginner</option>
+        <option>recreational</option>
+        <option>high school player</option>
+        <option>college player</option>
+        <option>tournament player</option>
+        <option>professional</option>
+      </select>
+
+      <label>Rank (1-7):</label>
+      <input type="number" id="rank" min="1" max="7" step="0.5" />
+
+      <label>Max Budget per Session ($):</label>
+      <input type="number" id="budget" />
+
+      <label>Travel Distance (miles):</label>
+      <input type="number" id="travel" />
+
+      <label>Goals:</label>
+      <input type="text" id="goals" placeholder='e.g. ["fun and recreation", "increase fitness"]' required />
+
+      <label>Languages:</label>
+      <input type="text" id="languages" placeholder='e.g. ["English", "Spanish"]' required />
+
+      <button type="submit">Cluster Player</button>
+    </form>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
